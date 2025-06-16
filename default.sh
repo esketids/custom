@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source /venv/main/bin/activate
-export CIVITAI_TOKEN="YOUR_CIVITAI_API_TOKEN_HERE"
+export CIVITAI_TOKEN="f160d565cb3b92800a624668d6d69ee3"
 COMFYUI_DIR=${WORKSPACE}/ComfyUI
 
 # Packages are installed after nodes so we can fix them...
