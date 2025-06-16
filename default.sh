@@ -25,13 +25,16 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
+    "https://civitai.com/api/download/models/1772645?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    "https://civitai.com/api/download/models/1731647?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 )
 
 UNET_MODELS=(
 )
 
 LORA_MODELS=(
+    ""
+    ""
 )
 
 VAE_MODELS=(
