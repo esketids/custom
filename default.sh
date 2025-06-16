@@ -1,7 +1,6 @@
 #!/bin/bash
 
 source /venv/main/bin/activate
-export CIVITAI_TOKEN="f160d565cb3b92800a624668d6d69ee3"
 COMFYUI_DIR=${WORKSPACE}/ComfyUI
 
 # Packages are installed after nodes so we can fix them...
@@ -19,6 +18,9 @@ PIP_PACKAGES=(
 NODES=(
     #"https://github.com/ltdrdata/ComfyUI-Manager"
     #"https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    
+    
 )
 
 WORKFLOWS=(
@@ -26,16 +28,13 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/1166878?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    "https://civitai.com/api/download/models/1731647?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    ""
 )
 
 UNET_MODELS=(
 )
 
 LORA_MODELS=(
-    ""
-    ""
 )
 
 VAE_MODELS=(
