@@ -1,6 +1,7 @@
 #!/bin/bash
 
 source /venv/main/bin/activate
+export CIVITAI_TOKEN="YOUR_CIVITAI_API_TOKEN_HERE"
 COMFYUI_DIR=${WORKSPACE}/ComfyUI
 
 # Packages are installed after nodes so we can fix them...
@@ -25,7 +26,7 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/1772645?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    "https://civitai.com/api/download/models/1166878?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     "https://civitai.com/api/download/models/1731647?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 )
 
